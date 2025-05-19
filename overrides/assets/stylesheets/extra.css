@@ -1,0 +1,29 @@
+/* ========== LIGHT MODE ========== */
+[data-md-color-scheme="default"] {
+  /* Cor primária (verde) */
+  --md-primary-fg-color: #567751;
+  --md-primary-fg-color--light: #6e9066;
+  --md-primary-fg-color--dark: #3d5c3c;
+
+  /* Footer */
+  --md-footer-bg-color: #EAEEF5;
+  --md-footer-fg-color: #333;
+
+  /* Links no rodapé */
+  --md-footer-link-color: #567751;
+}
+
+/* ========== DARK MODE ========== */
+[data-md-color-scheme="slate"] {
+  /* Cor primária (verde no dark também) */
+  --md-primary-fg-color: #567751;
+  --md-primary-fg-color--light: #6e9066;
+  --md-primary-fg-color--dark: #3d5c3c;
+
+  /* Footer */
+  --md-footer-bg-color: #1f1f1f;
+  --md-footer-fg-color: #aaa;
+
+  /* Links no rodapé */
+  --md-footer-link-color: #aaa;
+}

@@ -1,0 +1,36 @@
+site_name: MBWEB Docs
+
+# Top menu apenas com as principais entradas
+
+# # Adicionais
+plugins:
+  - search
+  - literate-nav:
+      nav_file: SUMMARY.md
+      implicit_index: true
+
+# Temas 
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.tabs
+    - navigation.top    
+  palette:
+    - scheme: default  # Light mode
+      primary: custom
+      toggle:
+        icon: material/weather-night
+        name: Alternar para modo escuro
+    - scheme: slate     # Dark mode
+      primary: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Alternar para modo claro
+  custom_dir: overrides
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra:
+  generator: false
